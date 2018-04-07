@@ -1,0 +1,159 @@
+html, body {
+	margin: 0;
+	font-family: 'Coming Soon', cursive;
+	text-align: center;
+	background-image: url("intro.svg");
+	background-color: #DAFCFF
+}
+
+@keyframes rainbow {
+	0% {background-color: red;}
+	14% {background-color: orange;}
+	28% {background-color: yellow;}
+	42% {background-color: green;}
+	56% {background-color: blue;}
+	70% {background-color: purple;}
+	80% {background-color: black;}
+}
+
+@keyframes change {
+	0% {transform:: translateX(-100px);}
+	50% {transform: translate(100px);}
+}
+
+#Sunset {
+	animation-name: rainbow;
+	animation-duration: 10s;
+/*	animation-iteration-count:infinite; */
+}
+
+.dropbtn {
+	border: none;
+	padding: 16px;
+	font-size: 16px;
+	background-color: green;
+	color: white;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color:#DAFCFF;
+	border: 1px dashed #1D80897;
+
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-content a{
+	color: black;
+	padding: 12 px 16 px;
+	text-decoration: none;
+	display: block;
+}
+
+p {
+	/*TODO: Change the color of paragraph texts*/
+
+	background-color: #DAFCFF;
+	color: #1D8089;
+	font-size: 25px
+
+}
+
+h1 {
+	/*TODO: Change the color of h1 text*/
+	color:#891D80;
+	background-color: #DAFCFF;
+	animation-name: change;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+h2{
+	font-size: 30px
+}
+img {
+	border-radius: 25px;
+	max-width: 100%;
+}
+
+.brown {
+	/*TODO: Change the color of text to brown*/
+	color: brown;
+}
+
+#page-wrapper {
+	padding: 0 10% 0 10%;
+}
+
+#page-wrapper > * {
+	padding: 50px;
+	margin: auto;
+	height: auto;
+}
+
+
+#Sunset {
+	/*TODO: Change the background color to blue*/
+	background-color: #DAFCFF;
+}
+
+#Edge {
+	display: inline-block;
+	/*TODO: Change the background color to yellow*/
+	background-color:#DAFCFF;
+
+}
+
+#Edge > img  {
+	width: 45%;
+	margin: 0 20px 0 20px;
+}
+
+#green {
+		display: inline-block;
+	/*TODO: Change the backgrond color to green*/
+	background-color: #DAFCFF;
+}
+#green > img {
+	width: 35%;
+	margin: 0 20px 0 20px;
+	margin-bottom: 40px ;
+}
+
+#yellow {
+	/*TODO: Change the background color to yellow*/
+	background-color: #DAFCFF;
+}
+
+#white {
+	/*TODO: Change the background color to white*/
+	background-color: #DAFCFF;
+}
+
+#white > img {
+	width: 30.3%;
+}
+
+#content_holder {
+	display: inline-block;
+	/*TODO:; change the background color to green*/
+	background-color: #DAFCFF;
+}
+
+.content {
+	width: 44.5%;
+	float: left;
+	margin: 2%;
+	border: 1px dashed orange;
+	padding: 5px;
+	background-color: #DAFCFF;
+}
